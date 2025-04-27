@@ -1,0 +1,98 @@
+*{
+   margin:0% ;
+   padding:0% ; 
+   box-sizing: border-box;
+   font-family:'poppins', sans-serif ;
+}
+body{
+  background-image:url(image/download\ \(1\).jpeg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:wheat;
+  padding-top:40px; 
+  text-align: center;
+  
+  
+}
+.main>h1{
+  padding:20px ;
+  font-weight:900 ;
+  color:wheat;
+  text-shadow:2px 2px  rgb(107, 103, 103);
+
+}
+
+
+
+
+.form>input{
+    width:28% ;
+    height:60px ;
+    display: flex;
+    position: relative;
+    padding:20px ;
+    margin-bottom:15px ;
+    font-size:15px ;
+    border:black 1px solid;
+    border-radius:20px ;
+    box-shadow:rgb(32, 31, 31) 4px 5px 4px 5px;
+    transition: 0.3s ease-out;
+    
+  
+}
+
+.form>button{
+  width: 28%;
+  height:60px ;
+  font-size:20px ;
+  border-radius:20px;
+  box-shadow:rgb(32, 31, 31) 4px 5px 4px 5px ;
+  transition:0.3s ease-out ;
+}
+
+
+.form>input:hover{
+ background-color: aqua;
+  transform: scale(1.02);
+  
+}
+
+.form>button:hover{
+   background-color:rgb(241, 193, 211);
+   color: chocolate;
+   transform: scale(1.02);
+}
+
+.register-link{
+      padding:25px ;
+      font-size:20px ;
+      color: wheat;
+      cursor: pointer;
+
+}
+
+.register-link:hover{
+       color: blueviolet;
+       font-size:22px ;
+
+}
+
+
+@media(max-width:480px ){
+   body{
+      width: 90%;
+
+
+   }
+
+.form>input{
+width:90% ;
+
+}
+
+.form>button{
+
+width:90% ;
+
+}
+}
